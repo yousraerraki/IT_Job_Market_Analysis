@@ -1,8 +1,14 @@
 # 📊 IT Job Market Analysis using Python & Power BI
 
-##  Project Overview
+## Project Overview
 
 This project analyzes the IT job market using a dataset of Data Science and AI job salaries. The objective is to explore salary trends, job distributions, company characteristics, and geographical insights using Python for data analysis and Power BI for interactive visualization.
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](dashboard.png)
 
 ---
 
@@ -50,7 +56,7 @@ The dataset contains information about:
 
 ## 📁 Project Structure
 
-```
+```text
 IT_Job_Market_Analysis
 │
 ├── ds_salaries.csv
@@ -59,8 +65,9 @@ IT_Job_Market_Analysis
 ├── visualization.py
 ├── company_size_analysis.py
 ├── country_analysis.py
-├── Data Job Market Analysis Dashboard 1.pbix
-├── Data job Market Analysis Dashboard.pdf
+├── IT_Job_Market.pbix
+├── IT_Job_Market_Report.pdf
+├── dashboard.png
 └── README.md
 ```
 
@@ -83,8 +90,6 @@ The analysis includes:
 
 ## 📊 Power BI Dashboard
 
-The dashboard contains:
-
 ### KPI Cards
 
 - Average Salary
@@ -92,7 +97,7 @@ The dashboard contains:
 - Total Job Titles
 - Total Countries
 
-### Charts
+### Visualizations
 
 - Average Salary by Experience Level
 - Average Salary by Company Size
@@ -112,10 +117,10 @@ The dashboard contains:
 ## 🔍 Key Insights
 
 - Senior and Executive positions receive the highest salaries.
-- Large companies generally offer higher salaries.
-- The United States has the largest number of Data Science jobs.
-- Data Scientist and Data Engineer are the most common job titles.
-- Remote work has become increasingly common.
+- Large companies generally offer higher salaries than small companies.
+- The United States has the highest number of Data Science job opportunities in the dataset.
+- Data Scientist and Data Engineer are among the most common job titles.
+- Remote work has become increasingly common across the industry.
 
 ---
 
@@ -133,13 +138,7 @@ python country_analysis.py
 
 ### Power BI
 
-Open:
-
-```
-Data Job Market Analysis Dashboard 1.pbix
-```
-
-using Microsoft Power BI Desktop.
+Open the `IT_Job_Market.pbix` file using Microsoft Power BI Desktop.
 
 ---
 
@@ -168,18 +167,19 @@ GitHub: https://github.com/yousraerraki
 
 ---
 
-## ⭐ Project Highlights
+## ⭐ Skills Demonstrated
 
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Business Intelligence
-- Interactive Dashboard
 - Data Visualization
+- Power BI Dashboard Design
 - Python Programming
-- Power BI Reporting
+- Data Analysis with Pandas
+- Reporting and Data Storytelling
 
 ---
 
 ## 📜 License
 
-This project is developed for educational and portfolio purposes.
+This project was developed for educational and portfolio purposes.
